@@ -1,10 +1,47 @@
 body {
-    margin: 5% 15% auto 15%;
     background: darkslateblue;
     color: lavender;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1 {
-    font-size: xxx-large;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 64px;
     color: lavenderblush;
+}
+
+#under_navbar {
+    font-size: 24px;
+    background: slateblue;
+    width: 100%;
+    text-align: center;
+}
+
+#overview {
+    background: slateblue;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 2% 60% 2% 0%;
+}
+
+#content {
+    margin: 5% 25% 0 25%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
 }
